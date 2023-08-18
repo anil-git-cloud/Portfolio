@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #fff;
+}
+header {
+  /* padding: 20px 100px; */
+  position: absolute;
+  margin-top: 5px;
+  width: 100%;
+  z-index: 100;
+}
+nav {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  /* background: rgb(0, 0, 60); */
+}
+nav .logo {
+  padding: 20px 100px;
+  text-decoration: none;
+  color: White;
+  font-size: 30px;
+  letter-spacing: 5px;
+}
+nav .logo span {
+  color: orange;
+  font-size: 30px;
+  font-weight: 800;
+}
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 25px 10px;
+  padding: 20px 80px;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 800;
+  color: white;
+  margin-left: 50px;
+  cursor: pointer;
+}
+ul li a:hover {
+  color: orange;
+}
+/* ****************Home-Section******************************** */
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: red;
+  width: 100%;
+  height: 100vh;
+  padding: 70px 10% 0;
+}
+.home-content {
+  margin-bottom: 50px;
+}
+.home-content h3 {
+  font-size: 25px;
+  font-weight: 600;
+  /* margin: 0px 0px; */
+}
+.home-content h3 span {
+  /* color: rgb(247, 163, 5); */
+  color: orange;
+}
+.home-content h1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+.home-content button {
+  padding: 10px 10px;
+  border: none;
+  color: white;
+  background: #000;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 8px;
+  border-radius: 15px 15px;
+  box-shadow: 10px 5px #fff;
+  cursor: pointer;
+}
+.home-content button:hover {
+  color: orange;
+  background: White;
+  box-shadow: none;
+}
+.home-right-img img {
+  max-width: 530px;
+  margin-right: -83px;
+  margin-bottom: 40px;
+}
+/****************About Section */
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  gap: 5rem;
+  background: orange;
+}
+.about .about-img img {
+  max-width: 450px;
+  margin-left: 50px;
+  margin-bottom: 40px;
+  border: 2px white solid;
+}
+.about .about-content h1 {
+  margin-bottom: 15px;
+  font-size: 45px;
+  font-weight: 500;
+}
+h1 span {
+  color: red;
+}
+.about .about-content h3 {
+  font-size: 20px;
+}
+.about .about-content p {
+  font-size: 14px;
+  font-weight: 300;
+}
+.about-btn,
+.service-box-btn {
+  padding: 10px 10px;
+  border: none;
+  color: white;
+  background: #000;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 8px;
+  border-radius: 15px 15px;
+  box-shadow: 10px 5px #fff;
+  cursor: pointer;
+}
+.about-btn:hover,
+.service-box-btn:hover {
+  color: orange;
+  background: White;
+  box-shadow: none;
+}
+/* *******************Service Section*/
+.service {
+  width: 100%;
+  height: 100vh;
+  /* background: crimson; */
+  background: rgb(0, 0, 33);
+}
+.service .top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: purple; */
+}
+.service .top .heading {
+  text-align: center;
+  font-weight: 700;
+  font-size: 25px;
+}
+.service .top img {
+  width: 35px;
+}
+.service .service-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 15px 10px 15px;
+  margin: 45px 10px 15px 15px;
+  background-color: purple;
+}
+.service .service-container .service-box {
+  flex: 1 1 30rem;
+  border-radius: 10px;
+  border: 2px solid white;
+  background: rgb(0, 0, 44);
+  padding: 20px;
+}
+.service .service-container .service-box i {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.service .service-container h3 {
+  text-align: center;
+  font-weight: 600;
+}
+/* **************Contact Section */
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: crimson;
+}
+.contact .contact-content h3 {
+  text-align: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  background: white;
+  margin: 50px;
+}
